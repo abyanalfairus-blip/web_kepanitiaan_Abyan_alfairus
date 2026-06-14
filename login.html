@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Futsal Tournament</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { background-color: #111827; color: #f3f4f6; }
+        .glass-card { background: #1f2937; border: 1px solid #374151; }
+    </style>
+</head>
+<body class="h-screen flex items-center justify-center relative overflow-hidden">
+    <div class="glass-card p-8 rounded-xl w-full max-w-md z-10 shadow-2xl border-t-4 border-green-600">
+        <div class="text-center mb-8">
+            <i class="fa-solid fa-futbol text-5xl text-green-600 mb-3"></i>
+            <h1 class="text-3xl font-bold uppercase tracking-wider">Futsal<span class="text-green-600">Match</span></h1>
+            <p class="text-gray-400 text-sm mt-1">Sistem Informasi Kepanitiaan</p>
+        </div>
+
+        <form action="proses_login.php" method="POST" class="space-y-5">
+            <div>
+                <label class="block text-sm font-semibold text-gray-300 mb-1">Username</label>
+                <input type="text" name="username" required class="w-full px-4 py-2 bg-gray-900 border border-gray-600 rounded text-white focus:outline-none focus:border-green-600" placeholder="Ketik: admin">
+            </div>
+            <div>
+                <label class="block text-sm font-semibold text-gray-300 mb-1">Password</label>
+                <input type="password" name="password" required class="w-full px-4 py-2 bg-gray-900 border border-gray-600 rounded text-white focus:outline-none focus:border-green-600" placeholder="Ketik: admin123">
+            </div>
+            
+            <button type="submit" class="w-full py-3 mt-4 bg-green-600 hover:bg-green-700 text-white rounded font-bold transition shadow-lg">
+                <i class="fa-solid fa-right-to-bracket mr-2"></i> MASUK SISTEM
+            </button>
+        </form>
+        
+    </div>
+</body>
+</html>
