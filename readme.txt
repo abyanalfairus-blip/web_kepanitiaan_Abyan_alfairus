@@ -4,7 +4,6 @@ PROYEK PEMROGRAMAN WEB - TURNAMEN FUTSAL UMMI 2026
 
 Dibuat oleh:
 1. Abyan Alfairus
-2. Farisha
 
 --- FITUR SISTEM ---
 1. Login Admin (Proteksi Sesi)
